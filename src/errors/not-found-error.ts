@@ -1,5 +1,4 @@
 import { CustomError } from './custom-error'
-import { errorHandler } from '../middlewares/error-handler'
 
 export class NotFoundError extends CustomError {
     statusCode = 404
